@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>お問い合わせ－Attica Record</title>
+<link href="style.css" rel="stylesheet">
+<link href="rspnsv.css" rel="stylesheet">
+</head>
+<body id="contact">
+  
+<!--headerはじまり-->
+  <header>
+      <div class="logo">
+<img src="logo.png" alt="ATTICA RECORDS">
+</div>
+    <p class="retshop"><a href="index.html">ショップへ戻る</a></p>
+  </header>
+<!--headerおわり-->
+      
+  
+<section>
+  <h2 class="icon">Contact form</h2>
+   <div class="form">
+     <form>
+     <dl>
+      <dt><span class="required">お名前</span></dt>
+       <dd><input type="text" name="name" class="name" required></dd>
+        <dt><span class="required">メールアドレス</span></dt>
+       <dd><input type="email" name="email" class="email" required></dd>
+       <dt>お電話番号</dt>
+       <dd><input type="tel" name="tel" class="tel" required></dd>
+       <dt>お問い合わせ種別</dt>
+       <dd>
+        <select name="type" class="type">
+          <option value="商品に関するお問い合わせ">商品に関するお問い合わせ</option>
+          <option value="当店に対するご意見ご感想">当店に対するご意見・ご要望</option>
+          <option value="その他・お問い合わせ">その他・お問い合わせ</option>
+         </select>
+       </dd>
+       <dt>ご希望の連絡方法</dt>
+       <dd>
+         <input type="radio" name="contact" value="Eメール">Eメール
+         <input type="radio" name="contact" value="電話連絡">お電話
+       </dd>
+       <dt>メッセージ</dt>
+       <dd><textarea name="message" class="message"></textarea></dd>
+     </dl>
+       <button type="submit" class="btn">送信</button>
+       </form>
+  </div> 
+  </section> 
+<!--footerはじまり-->
+  <footer>
+          <ul class="footer-nav">
+            <li><a href="">お支払い方法について ｜</a></li>
+            <li><a href="">特定商取引法に基づく表記 ｜</a></li>
+            <li><a href="">プライバシーポリシー ｜</a></li>
+            <li><a href="contact.html">お問い合わせ ｜</a></li>
+          </ul>
+     
+      <small>©2019 Attica Records.</small>
+  </footer>
+<!--footerおわり-->  
+</body>
+</html>
