@@ -1,0 +1,485 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Bitter', serif;
+   box-sizing: border-box;
+}
+
+header{
+  margin: 30px 0 0 50px;
+}
+
+div{
+  overflow: hidden;
+}
+
+.container{
+  padding-top: 15px;
+}
+
+#logo{
+  float: left;
+  margin: 0;
+}
+
+.login{
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+    padding: 0;
+    font-size: 17px;
+  }
+
+.ac{
+  font-size: 15px;
+}
+
+.cart{
+  padding: 15px 0;
+  font-size: 15px;
+}
+
+
+.flexslider{
+    clear: both;
+    width: 100%;
+    
+}
+
+.slides:hover{
+  opacity: 0.7;
+}
+
+a{
+  
+  text-decoration: none;
+}
+
+
+a:hover{
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+.about:hover{
+  display: inline-block;
+  border-bottom:solid;
+  border-width:1px;
+  padding-bottom: 3px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+a:visited{
+   color:#000;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+.item_image{
+  transition-duration: 0.5s;
+}
+
+.item_image:hover{
+  transform: scale(1.3,1.3);
+  cursor: pointer;
+  border: 1px solid darkgray;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.gn{
+clear: both;
+position: relative;
+height: 30px;
+margin: 20px 0 20px 0;
+padding: 0;
+background: #fff;
+}
+
+.gn li a:hover{
+ border-bottom: 1px solid #000;
+ padding-bottom: 3px;
+ text-decoration: none;
+}
+
+nav > ul > li {
+  position: relative;
+  float: left;
+  margin: 15px 60px 0 12px;
+  font-size: 17px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+nav .sub-menu {
+  position: absolute;
+  top:0;
+  z-index: 30;
+  width: 95px;
+  background: darkgrey;
+  top: 20px;
+  display: none;
+}
+nav .sub-menu a {
+  text-align: center;
+  color: #fff;
+  padding: 10px 15px;
+  display: block;
+}
+
+nav .sub-menu a:hover {
+  color: #fff;
+}
+
+nav .menu-children:hover ul {
+  display: block;
+}
+nav li.menu-children li a:hover {
+  background: darkgrey;
+  
+}
+
+.my-cart{
+  color: darkgrey;
+}
+
+.my-login{
+  color: darkgrey;
+}
+
+.err_msg{
+  text-align: center;
+}
+
+.info{
+  margin-left: 40px;
+}
+
+.about_attica{
+  padding: 0 20px 50px 0;
+  margin-left: 40px;
+}
+
+.atticalet{
+  padding: 5px 20px 15px 0;
+}
+
+h1{
+  display: inline-block;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 30px;
+  margin-bottom: 35px;
+  border-bottom:solid;
+  border-width:1px;
+}
+
+h2{
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 35px;
+  
+}
+
+.info h2{
+  color: #FF3232;
+}
+
+.infolet{
+  color: #151515;
+}
+
+
+.item{
+  padding: 70px 0 0 40px;
+}
+
+.item_data{
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  align-items: stretch;
+  
+}
+
+.item_data li{
+  display: auto;
+  margin-right: 70px;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+
+.item_photo{
+  display: none;
+}
+
+.active{
+  display:block;
+}
+
+.itemslogo{
+  margin-left: 20px;
+}
+
+.recname{
+  margin-left: 38px;
+  font-size: 20px;
+}
+
+.item_rec{
+  display: inline-block;
+  width: 24%;
+  padding: 30px;
+  margin-top: 20px;
+  margin-left: 5px;
+  
+}
+
+.itemname{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.btn_rtntop{
+  position: relative;
+  width: 100%;
+  margin-left: 95%;
+}
+
+.rtntop {
+    display:  inline-block;
+    color: #fff;
+    text-decoration:  none;
+    background-color: #ddd;
+    position:  relative;
+    height: 55px;
+    width: 55px;
+}
+
+.rtntop::before {
+    content:  '';
+    width: 10px;
+    height: 10px;
+    display:  block;
+    border-top: solid 2px;
+    border-right: solid 2px;
+    transform: rotate(-45deg);
+    position:  absolute;
+    top: 10px;
+    bottom:  0;
+    left:  0;
+    right:  0;
+    margin:  auto;
+}
+
+footer{
+    position: relative;
+    margin-top: 5px;
+    padding: 25px 0 40px 0;
+    background-color: #3f3f3f;
+    color: white;
+    text-align: center;
+    
+}
+ul.footer-nav li {
+display: inline;
+}
+
+
+footer a:visited{
+   color: #fff;
+}
+
+small{
+  font-size: 15px;
+}
+
+#contact{
+  position: relative;
+}
+
+#contact .logo{
+ position: absolute; 
+  top: 10px; 
+  left: 300px;
+}
+
+.retshop a{
+  position: absolute;
+  top: 110px;
+  left: 920px;
+  font-size: 15px;
+  letter-spacing: -0.1em;
+  color:#313131;
+  background-color: #eee;
+  padding: 5px 5px;
+  border:1px solid #eee;
+  border-radius: 2px;
+  box-shadow: 1px 1px #c6c6c6;
+  text-decoration: none;
+}
+
+.retshop:hover{
+  background-color: #e2e2e2;
+}
+
+#contact .icon{
+  position: absolute; 
+  top: 130px; 
+  left: 300px;
+  margin: 10px 0 10px 10px;
+}
+
+#contact .form{ 
+  padding: 180px 0 40px 310px;
+}
+
+#contact .form dl dt{
+  width: 960px;
+  
+}
+
+#contact .form dl dd{
+  padding-bottom: 20px;
+}
+
+#contact .form .name{
+  width: 720px;
+  height: 30px;
+}
+
+#contact .form .email{
+  width: 720px;
+  height: 30px;
+}
+
+#contact .form .tel{
+  width: 720px;
+  height: 30px;
+}
+
+#contact .form .message{
+  width: 720px;
+  height: 120px;
+}
+
+#contact section .btn{
+  display: block;
+  text-align: center;
+  background-color: #003366;
+  color: #fff;
+  font-size: 19px;
+  width: 180px;
+  line-height: 50px;
+  border:2px solid #003366;
+  border-radius: 2px;
+  margin: 15px 0 0 280px;
+}
+
+#contact section .btn:hover{
+  background-color: #fff;
+  color: #003366;
+  border:2px solid #003366;
+}
+
+#myac{
+  position: relative;
+}
+
+#myac .logo{
+ position: absolute; 
+  top: 10px; 
+  left: 300px;
+}
+
+#myac .icon{
+  position: absolute; 
+  top: 150px; 
+  left: 300px;
+  margin: 10px 0 30px 10px;
+}
+
+#myac .loginform{
+  padding: 180px 0 50px 310px
+}
+
+#myac .loginform .welcome{
+  margin: 40px 0 30px 0;
+  font-size: 15px;
+}
+
+#myac .loginform .log_pass{
+  padding: 20px 20px;
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  color: #44617B;
+  background-color: #f0fff0;
+  width: 720px;
+}
+
+#myac .loginform dl dt{
+  width: 960px;
+  margin:30px 0 0 0;
+}
+
+#myac .loginform dl dd{
+  padding-bottom: 20px;
+}
+
+#myac .loginform dl dt{
+ width: 720px;
+  height: 30px;
+}
+
+#myac .loginform dl dd{
+  width: 720px;
+  height: 30px;
+}
+
+#myac .loginform .mail{
+  width: 720px;
+  height: 30px;
+}
+
+#myac .loginform .pass{
+  width: 720px;
+  height: 30px;
+}
+
+.btn{
+  display: block;
+  text-align: center;
+  background-color: #003366;
+  color: #fff;
+  font-size: 19px;
+  width: 180px;
+  line-height: 50px;
+  border:2px solid #003366;
+  border-radius: 2px;
+  margin: 60px 0 0 280px;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #003366;
+  border:2px solid #003366;
+}
+
